@@ -1,0 +1,56 @@
+(Lispbox was used for the development)
+
+After installing lisp, load the file :
+
+(load "slitherlink.lisp")
+
+then call the function slither:
+
+(slither)
+
+When asks Which game do you want to play? type:
+
+tboard1.txt 
+tboard2.txt 
+and so on..
+
+(All data files should be in UNIX format(Notepad++ > Open file > Edit > EOL conversion > UNIX format))
+
+A. If the user wants to play:
+When prompted with the question "Your move? :" the user places moves as follows:
+
+1 1 t
+
+1 1 b
+
+1 2 t
+
+1 2 r
+
+and so on..
+
+
+Finally when the loop is completed correctly a message will be prompted:
+loop complete
+You Won!
+
+
+
+B. Automatic Play (If the user wants the the computer to solve the game):
+When prompted with the question "Your move? :" type: 
+
+solve    (and press enter)
+
+
+This will be prompted:
+apply-hints or solve-anyway?
+What do you choose? :
+
+type: apply-hints (if you want the hints to be applied)
+
+type: solve-anyway (for the program to solve the board)
+
+
+
+
+
